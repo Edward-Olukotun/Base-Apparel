@@ -1,7 +1,7 @@
 @import url(https://fonts.google.com/specimen/Josefin+Sans);
 
 body {
-  background-image: url("./images/bg-pattern-desktop.svg");
+  background-image: url("../public/images/bg-pattern-desktop.svg");
   background-repeat: no-repeat;
   width: auto;
   height: auto;
