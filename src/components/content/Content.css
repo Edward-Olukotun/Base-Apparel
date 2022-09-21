@@ -1,0 +1,14 @@
+h1 {
+  font-weight: 900;
+  font-size: xx-large;
+  font-family: "Josefin Sans", sans-serif;
+}
+p {
+  color: hsl(0, 93%, 68%);
+}
+.were {
+  color: hsl(0, 93%, 68%);
+}
+h1 {
+  letter-spacing: 15px;
+}
