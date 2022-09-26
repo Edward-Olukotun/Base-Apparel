@@ -41,7 +41,6 @@ button {
   border-radius: var(--rounded);
   background: var(--linear2);
   cursor: pointer;
-  margin-right: -30px;
 }
 button:hover {
   background: hsl(0, 80%, 86%);
