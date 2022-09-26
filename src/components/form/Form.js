@@ -21,26 +21,27 @@ function MyForm() {
     }
 
     return (
-        <form className='form' onSubmit={submit}>
-            <input
-                type="text"
-                value={email}
-                placeholder="        Email Address   "
-                onChange={(e) => setEmail(e.target.value)}
-            />
-            {error && (
-                <img
-                    className="error-icon"
-                    src="./images/icon-error.svg"
-                    alt="error-icon"
+        <>
+            <form className='form' onSubmit={submit}>
+                <input
+                    type="text"
+                    value={email}
+                    placeholder="        Email Address   "
+                    onChange={(e) => setEmail(e.target.value)}
                 />
-            )}
-            <button type="submit">
-                <img className="btn" src=" /images/icon-arrow.svg" alt="submit" />
-            </button>
+                {error && (
+                    <img
+                        className="error-icon"
+                        src="./images/icon-error.svg"
+                        alt="error-icon"
+                    />
+                )}
+                <button type="submit">
+                    <img className="btn" src=" /images/icon-arrow.svg" alt="submit" />
+                </button>
+            </form>
             <p className="error">{error}</p>
-
-        </form>
+        </>
     )
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
