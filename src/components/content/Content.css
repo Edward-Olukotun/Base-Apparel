@@ -45,6 +45,7 @@
     margin: 0 180px;
     text-align: left;
     width: 370px;
+    margin-top: -180px;
   }
   .content h1 {
     font-size: 60px;

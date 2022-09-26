@@ -53,6 +53,7 @@
   .App {
     position: relative;
     flex-direction: row-reverse;
+    overflow: hidden;
   }
   .logo {
     height: 85px;
