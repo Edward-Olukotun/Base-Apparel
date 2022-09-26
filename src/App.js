@@ -4,14 +4,21 @@ function App() {
 
   return (
     <div className="App">
-      <section>
+      <div className='logo'>
         <img className='logo' src="/images/logo.svg" alt='' />
-        <main>
-          <Content />
-          <Form />
-        </main>
-      </section>
-      <img className='sideImage' src="/images/hero-desktop.jpg" alt='' />
+      </div>
+      <div className='desktop'>
+        <img src="/images/hero-desktop.jpg" alt='' />
+      </div>
+      <div className='mobile'>
+        <img src="/images/hero-mobile.jpg" alt='' />
+      </div>
+      <main>
+        <Content />
+        <Form />
+      </main>
+
+
     </div>
   );
 }
